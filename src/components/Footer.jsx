@@ -23,9 +23,12 @@ const Footer = () => {
           <p className="text-gray-500 text-xs md:text-sm font-light mb-4 md:mb-0">
             &copy; {new Date().getFullYear()} Adv. Akhil R Kurup. All rights reserved.
           </p>
-          <p className="text-gray-500 text-xs md:text-sm font-light">
-            Designed for Professional Excellence.
-          </p>
+          <div className="text-gray-500 text-xs md:text-sm font-light md:text-right">
+            <p>Designed for Professional Excellence.</p>
+            <p className="mt-1">
+              Developed by <a href="https://fennechron.com" target="_blank" rel="noopener noreferrer" className="hover:text-gold transition-colors">fennechron.com</a>
+            </p>
+          </div>
         </div>
       </div>
     </footer>

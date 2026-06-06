@@ -13,7 +13,7 @@ const Hero = () => {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
           {/* Text Section */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
@@ -21,7 +21,7 @@ const Hero = () => {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="text-center lg:text-left order-2 lg:order-1 mt-8 lg:mt-0"
           >
-            <h2 className="text-gold tracking-[0.2em] text-xs sm:text-sm md:text-base font-semibold uppercase mb-3 md:mb-4">
+            <h2 className="text-gold tracking-[0.2em] text-xs sm:text-sm md:text-base font-semibold uppercase mb-2 md:mb-4">
               Legal Excellence & Integrity
             </h2>
             <h1 className="text-4xl sm:text-5xl md:text-7xl font-serif font-bold mb-4 sm:mb-6 tracking-tight leading-tight md:leading-tight px-2 lg:px-0">

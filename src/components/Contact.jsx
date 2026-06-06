@@ -87,7 +87,9 @@ const Contact = () => {
                 <Mail className="h-6 w-6 text-gold mr-4 mt-1 flex-shrink-0" />
                 <div>
                   <p className="text-gray-300 font-medium mb-1">Email</p>
-                  <p className="text-gray-400 font-light">akhilrkurup123@gmail.com</p>
+                  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=akhilrkurup123@gmail.com" target="_blank" rel="noopener noreferrer" className="text-gray-400 font-light hover:text-gold transition-colors block">
+                    akhilrkurup123@gmail.com
+                  </a>
                 </div>
               </div>
             </div>
